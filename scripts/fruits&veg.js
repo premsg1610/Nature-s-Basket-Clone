@@ -1,6 +1,7 @@
+// import header from "..components/header.js"
+// document.getElementById("header").innerHTML = header()
 
-
-import {appendData, sort, filter} from "./fetch_pg.js";
+import {appendData, sort, filter,search} from "./fetch_pg.js";
 
 
 
@@ -148,22 +149,31 @@ document.getElementById("clear").addEventListener("click",function(){
 
 
 
-
-
-
-
-
-
-
-
-
-
+// Search Functionality
 
   
+// import {search,appendData} from "./fetch_pg.js";
 
 
-const searchData = []
+let searchResult = JSON.parse(localStorage.getItem("searched"))
 
-searchData.push(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20)
 
-localStorage.setItem("searchData",JSON.stringify(searchData))
+
+let searchProduct = (e) => {
+
+    let selected = document.getElementById("input").value
+
+        let gridBox = document.getElementById("gridBox")
+
+        if(e.key == "Enter")
+        {
+
+            search(selected)
+
+            let gridBox = document.getElementById("gridBox")
+            appendData(searchResult,gridBox)
+
+        }
+}
+
+document.getElementById("input").addEventListener("keydown",searchProduct)
