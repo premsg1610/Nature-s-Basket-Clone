@@ -1,0 +1,230 @@
+#AdiMainContainer{
+    background-color:#fbfbfb ;
+}
+#Adifooter1{
+    height: 310px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+}
+/* #Adifooter1>div{
+    border: 1px solid red;
+} */
+#Adisecbox1 {
+    padding-left: 14px;
+    float: left;
+    margin: 3px 0 0 56px;
+    width: 250px;
+}
+#Adisecbox1 h4{
+  
+    color:  #4a4a4d;
+    font-family: "CeraPRO-Medium";
+    font-size: 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+#Adisecbox1 a img{
+    width: 170px;
+    border-width: 0px;
+}
+#Adisecbox2{
+    margin-left: -50px;
+    width: 650px;
+    display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  justify-content: space-evenly;
+}
+/* #Adisecbox2 div{
+  border: 1px solid blue;
+} */
+#Adisecrow1{
+  margin-left: -35px;
+}
+#Adisecrow1 li h4 a{
+    color: #3e3e3e;
+    font-weight: bold;
+    font-family: "CeraPRO-Medium";
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 20px;
+    /* list-style: none !important; */
+
+}
+li{
+    list-style: none;
+}
+#Adisecrow1 li a{
+    color: #858585;
+    display: block;
+    font-family: "CeraPRO-Regular";
+    font-size: 14px;
+
+   padding: 3px;
+    cursor: pointer;
+    outline: 0 none;
+    text-decoration: none;
+}
+#Adinewsletter{
+    margin: 0 2% 0 0;
+    position: relative;
+    width: 302px;
+}
+#Adinewsletter h4{
+    float: left;
+    font-size: 15px;
+    color: #4a4a4a;
+    font-family: "CeraPRO-Medium";
+    padding-top: 4px;
+   margin-top: 20px;
+   font-weight: bold;
+}
+#Adinewsletter  input{
+    background: #fff;
+    border: 1px solid #cecdcc;
+    color: #1f1e1e;
+    font-family: "CeraPRO-Light";
+    font-size: 14px;
+    height: 45px;
+    margin-top: 20px;
+    min-width: 250px;
+    padding: 0 20px;
+    text-align: left; 
+    margin-top: 0px;
+    outline: none;
+}
+#AdiSubbutton{
+    font-family: CeraPRO-Regular;
+    background: #99c655;
+    border: 10px none;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 8px 20px;
+    right: 5px;
+    text-transform: uppercase;
+}
+
+#Adicolpay{
+    height: 50px;
+    font-size: 14px;
+    font-weight: normal;
+    /* line-height: 49px; */
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+}
+#Adirow1pay{
+    width: 50%;
+    /* border: 1px solid red; */
+    color:  #2f0a0a;
+        font-family: "CeraPRO-Light";
+        font-size: 15px;
+        text-transform: initial;
+        /* letter-spacing: 1px; */
+    display: flex;
+    align-items: center;
+}
+#Adirow1pay span{
+    /* border: 1px solid blue; */
+    margin-right: 15px;
+    margin-left: 50px;
+
+}
+#Adirow2pay{
+    width: 30%;
+    /* border: 1px solid orange; */
+    display: flex;
+    margin-left: 20%;
+/* justify-content: end; */
+}
+#Adirow2pay ul li{
+    padding-right: 2px;
+    color: #111111;
+    font-family: 'CeraPRO-Regular';
+    font-size: 13px;
+    text-transform: initial;
+    display: inline-block;
+}
+#Adirow2pay ul li a{
+    background-position: 3px 9px;
+    margin-top: 15px;
+    display: inline;
+    margin: 0;
+    padding: 10px ;
+    color:   #8f8e8e;
+    font-size: 25px;
+    /* border: 1px solid pink; */
+}
+
+#Adifooter3{
+    width: 93%;
+    height: 700px;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+}
+/* #Adifooter3 >div{
+    border: 1px solid red;
+} */
+
+#Adifooter4{
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    color: #4a4a4a;
+    margin: 0 auto;
+    /* padding-bottom: 30px; */
+    padding-top: 0;
+    font-family: "CeraPRO-Light";
+    font-size: 13px;
+    width: 100%;
+}
+#Adisecrow2 {
+   
+    color: #4a4a4a;
+    font-family: "CeraPRO-Light";
+    font-size: 14px;
+    display: flex;
+    gap: 5px;
+   
+}
+#Adisecrow2 li p{
+    color: #626262;
+    display: block;
+    font-family: "CeraPRO-Regular";
+    font-size: 14px;
+    margin-top: 15px !important;
+}
+
+#Adisecrow2 li span{
+ float: left;
+    margin: 0 4px;
+    border: 1px solid #747373;
+    align-items: center;
+    margin-top: 15px !important;
+    /* color: #4a4a4a; */
+    font-size: 8px;
+    
+}
+#Adisecrow2  li a{
+    color: #626262;
+    display: block;
+    font-family: "CeraPRO-Regular";
+    font-size: 14px;
+   padding: 3px;
+    cursor: pointer;
+    outline: 0 none;
+    text-decoration: none;
+    margin-top: 11px !important;
+}
