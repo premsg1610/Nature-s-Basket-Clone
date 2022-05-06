@@ -1,0 +1,82 @@
+.container1 {
+    height: 400px;
+    width: 250px;
+    box-shadow: rgba(20, 156, 54, 0.25) 0px 45px 45px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 50px;
+    right: 5%;
+    position: relative;
+}
+
+.container2 {
+    height: 400px;
+    width: 250px;
+    box-shadow: rgba(20, 156, 54, 0.25) 0px 45px 45px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 50px;
+    position: relative;
+    right: 15%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#form {
+    text-align: center;
+}
+
+#form input {
+    padding: 8px;
+    background: transparent;
+    border: 1px solid;
+    color: white;
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+}
+
+#form1 {
+    text-align: center;
+}
+
+#form1 input {
+    padding: 10px;
+    background: transparent;
+    border: 1px solid;
+    color: white;
+    outline: none;
+}
+
+
+#submit {
+    border: none;
+    padding: 10px 35px 10px 35px !important;
+    border-radius: 5px;
+    /* color: white; */
+    font-weight: bold;
+    background-color: white;
+}
+#submit1 {
+    border: none;
+    padding: 10px 35px 10px 35px !important;
+    border-radius: 5px;
+    /* color: white; */
+    font-weight: bold;
+    background-color: white;
+}
+
+
+.img {
+    background-image: url("https://media.istockphoto.com/photos/shopping-or-delivery-fruits-and-vegetables-picture-id1217108207?k=20&m=1217108207&s=612x612&w=0&h=pJdFZrnZlu26x-AvfDtMrze67RHSRgWjulY1xmrz3us=");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+   }
