@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./shipping.css">
+    <title>Shipping</title>
+</head>
+<body>
+    <div id="shipping">
+        <h3 id="shiph3">ADDRESS <span id="shipdetails">DETAILS</span></h3>
+        <div class="review">
+            <button class="placeorder">REVIEW AND PLACE ORDER</button>
+        </div>
+        <p id="enter">Enter Shipping Address</p>
+        <p id="mandatory">(Fields marked with * are mandatory)</p>
+        <form>
+            <fieldset>
+                <legend>Enter Details</legend>
+            <table id="table">
+                <tr>
+                    <td class="lefttd">First Name*</td>
+                    <td class="righttd"><input class="input" id="input_pr" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="lefttd">Last Name*</td>
+                    <td class="righttd"><input class="input" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="lefttd">Address*</td>
+                    <td id="add"><textarea id="textarea" cols="31" rows="6"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="lefttd">Landmark*</td>
+                    <td class="righttd"><input class="input" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="lefttd">Pincode*</td>
+                    <td class="righttd"><input class="input" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="lefttd">Area*</td>
+                    <td><select id="selecttd">
+                        <option value="">Select</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Chennai">Chennai</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td class="lefttd">Country*</td>
+                    <td class="righttd"><input class="input" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="lefttd">State*</td>
+                    <td class="righttd"><input class="input" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="lefttd">City*</td>
+                    <td class="righttd"><input class="input" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="lefttd">Mobile No*</td>
+                    <td class="righttd"><input class="input" type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+        </form>
+   </div>
+   <p id="billing">Billing Address <span><input type="checkbox" name="" id="billingcheck"></span><span>Same as Shipping Address</span></p>
+   <hr id="hrdown">
+   <input type="checkbox" name="" id="check">
+   <p id="gift">I would like to gift this order</p>
+   <h3 id="gifth3">GIFT <span id="optional">MESSAGE</span> (Optional)</h3>
+   <textarea id="giftarea" cols="80" rows="3" placeholder="Enter Your Gift Message"></textarea>
+   
+    <button class="placeorder" id="lowerbutton">REVIEW AND PLACE ORDER</button>
+
+</body>
+</html>
+
+<script src="./shipping.js"></script>

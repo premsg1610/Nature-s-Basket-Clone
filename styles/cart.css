@@ -1,0 +1,152 @@
+
+*{
+  font-family: CeraPRO;
+}
+#pr_nature 
+{
+   height:200px;
+   width: 100%;
+   border: 1px solid red;
+ cursor: pointer;
+  
+}
+#pr_image{
+  width: 100%;
+  height: 100%;
+
+}
+#pr_continue{
+    width: 200px;
+border-radius: 10px;
+border:3px solid rgb(104, 137, 47);
+padding: 8px 6px;
+color: #000000;
+font: 14px CeraPRO-Light,CeraPRO-Regular;
+margin: 0px 12px 0px 0px;
+cursor: pointer;
+font-size: 16px;
+font-weight: normal;
+background-color:#ffffff;
+
+}
+#pr_proceed{
+    
+    border-radius: 10px;
+    background-color: #92BE4D;
+    color: white;
+    padding: 10px 62px 10px;
+    font: 14px CeraPRO-Regular;
+    cursor: pointer;
+  font-size: 18px;
+  font-weight: normal;
+ 
+}
+#pr_proceed:hover{
+    background-color: #2f430d;
+}
+#pr_get
+{
+    
+    border-top: 4px solid #dedede;
+    color: #b71761;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 4px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+#pr_name{
+    height: 70px;
+    width: 100%;
+     display: flex; 
+     justify-content: space-evenly; 
+     border-bottom: 3px solid #92BE4D;
+     align-items: flex-end;
+  
+}
+
+
+#top{
+  margin-left: 900px;
+}
+
+#BOTTOM{
+  margin-left: 900px;
+}
+
+
+#tb{
+  border: 1px solid #d2c6c6;
+  width: 100%;
+  height: 70px;
+  margin-bottom: 30px;
+  
+  background-color: #f1f1f1
+
+}
+
+#pr_img{
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+td{
+  
+  
+  width: 25%;
+  
+}
+
+#price{
+  margin-right: 40px;
+}
+.header{
+  border-bottom: 1px solid #e1e1e1;
+}
+.inter{
+  border-bottom: 1px solid #a99e9e;
+}
+
+#pr_my{
+  font-size: 20px;
+  margin-top: 30px;
+}
+#pr_im{
+  margin-left: -300px;
+}
+ #pr_nm{
+  margin-right: 10px;
+}
+ #pr_qty{
+  margin-right: 30px;
+}  
+#pr_price{
+  margin-right: 90px;
+} 
+
+#pr_countDiv{
+  display: flex;
+  gap: 5px;
+ 
+}
+ 
+#remove{
+  margin-top: 20px;
+  margin-right: 10px;
+  background-color: #92BE4D;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+}
+#remove:hover{
+  background-color: #2f430d;
+  color: white;
+}
+  
