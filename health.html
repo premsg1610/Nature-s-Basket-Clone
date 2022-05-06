@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health</title>
+    <link rel="stylesheet" href="styles/common_styles.css">
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    
+   
+
+    <div id="container_pg">
+        <div id="leftBox">
+            <div id="filter">
+                <p>FILTER</p>
+                <p id="clear">CLEAR ALL</p>
+            </div>
+            <div id="products_filter">
+                <p id="---">Health</p>
+                <p id="DATES">Dates</p>
+                <p id="BASMATI">Basmati Rice</p>
+                <p id="QUINOA">Quinoa</p>
+                <p id="ATTA">Atta</p>
+                <p id="CASHEW">Cashew</p>
+            </div>
+            <div id="brands_filter">
+                <p>Brands</p>
+                <input type="checkbox" id="ORGANIC">
+                <label>Organic</label><br>
+                <input type="checkbox" id="NATURES">
+                <label>Natures</label><br>
+                <input type="checkbox" id="DAAWAT">
+                <label>Daawat</label><br>
+                <input type="checkbox" id="CONSCIOUS">
+                <label>Conscious</label><br>
+                <input type="checkbox" id="HELTHY">
+                <label>Helthy</label><br>
+                <input type="checkbox" id="HA">
+                <label>HA</label><br>
+                <input type="checkbox" id="KAPIVA">
+                <label>Kapiva</label><br>
+                <input type="checkbox" id="AASHIRVAAD">
+                <label>Aashirvaad</label>
+
+            </div>
+        </div>
+        <div id="rightBox">
+            <div id="heading_pg">
+                <p id="page_heading">HEALTH <span id="span">20 Products.</span></p>
+        
+                <select id="sorting">
+                    <option value="---">Relevance</option>
+                    <option value="lth">Low to high price</option>
+                    <option value="htl">High to low price</option>
+                </select>
+            </div>
+            <div id="gridBox"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
+<script src="./scripts/health.js" type="module"></script>

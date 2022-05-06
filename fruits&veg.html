@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits & Vegetables</title>
+    <link rel="stylesheet" href="styles/common_styles.css">
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+
+    <div id="container_pg">
+        <div id="leftBox">
+            <div id="filter">
+                <p>FILTER</p>
+                <p id="clear">CLEAR ALL</p>
+            </div>
+            <div id="products_filter">
+                <p id="---">Fruits & Vegetables</p>
+                <p id="Organic">Organic</p>
+                <p id="Apple">Apple</p>
+                <p id="Grapes">Grapes</p>
+                <p id="MANGO">Mango</p>
+                <p id="Potato">Potato</p>
+                <p id="Broccoli">Broccoli</p>
+                <p id="Banana">Banana</p>
+                <p></p>
+            </div>
+            <div id="brands_filter">
+                <p>Brands</p>
+                <input type="checkbox" id="HA">
+                <label>HA</label><br>
+                <input type="checkbox" id="Washington">
+                <label>Washington</label><br>
+                <input type="checkbox" id="Imported">
+                <label>Imported</label><br>
+                <input type="checkbox" id="Exotic">
+                <label>Exotic</label>
+
+            </div>
+        </div>
+        <div id="rightBox">
+            <div id="heading_pg">
+                <p id="page_heading">FRUITS & VEGETABLES <span id="span">20 Products.</span></p>
+        
+                <select id="sorting">
+                    <option value="---">Relevance</option>
+                    <option value="lth">Low to high price</option>
+                    <option value="htl">High to low price</option>
+                </select>
+            </div>
+            <div id="gridBox"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+<script src="./scripts/fruits&veg.js" type="module"></script>
