@@ -1,0 +1,97 @@
+*{
+    font-family: sans-serif;
+}
+
+
+#shipdetails{
+    color: #b61671;
+}
+.placeorder{
+    height: 33px;
+    width: 270px;
+    background-color: #92be4d;
+    padding: 3px 20px;
+    border: none;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 16px;
+    
+}
+#shipping{
+    display: flex;
+   /* border: 1px solid red; */
+   flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.review{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+#mandatory{
+    font-size: 10px;
+    margin-top: -17px;
+}
+#enter{
+    font-size: 18px;
+}
+.lefttd{
+    font-size: 14px;
+    opacity: 0.6;
+}
+.input{
+    height: 30px;
+    width: 223px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+#selecttd{
+    height: 30px;
+    width: 230px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+#textarea{
+    margin-left: 30px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+#check{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+#hrdown{
+    width: 60%;
+   opacity: 0.2;
+    background: black;
+    margin-top: 30px;
+}
+#billing,#gift{
+    font-size: 14px;
+    margin-left: 150px;
+    opacity: 0.8;
+}
+#billingcheck{
+    margin-left: 20px;
+}
+#gifth3{
+    margin-left: 150px;
+}
+#optional{
+    color: #b61671;
+}
+#giftarea{
+    margin-left: 150px;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    float: left;
+    margin-bottom: 30px;
+}
+#lowerbutton{
+    margin-left: 350px;
+    margin-top: 20px;
+}
