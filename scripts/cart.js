@@ -1,9 +1,16 @@
+// import header from "../components/header.js"
+// document.getElementById("header").innerHTML=header();
+
+import {footer} from "../components/footer.js";
+let n =document.getElementById("pr_footer");
+n.innerHTML=footer();
+
 import header from "../components/header.js"
-document.getElementById("header").innerHTML=header();
+document.getElementById("header").innerHTML=header()
 
 
 
-const data = JSON.parse(localStorage.getItem("cart"))
+let data = JSON.parse(localStorage.getItem("cart"))
 console.log(data)
 
 
