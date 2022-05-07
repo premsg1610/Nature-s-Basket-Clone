@@ -6,7 +6,7 @@
 {
    height:200px;
    width: 100%;
-   border: 1px solid red;
+
  cursor: pointer;
   
 }
@@ -72,11 +72,13 @@ background-color:#ffffff;
 
 
 #top{
-  margin-left: 900px;
+  margin-left: 700px;
+  outline:none;
 }
 
 #BOTTOM{
-  margin-left: 900px;
+  margin-left: 700px;
+  outline:none;
 }
 
 
@@ -119,13 +121,13 @@ td{
   margin-top: 30px;
 }
 #pr_im{
-  margin-left: -300px;
+  margin-left: -240px;
 }
  #pr_nm{
-  margin-right: 10px;
+  margin-left: 30px;
 }
  #pr_qty{
-  margin-right: 30px;
+  margin-left: -25px;
 }  
 #pr_price{
   margin-right: 90px;

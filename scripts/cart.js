@@ -109,9 +109,9 @@ append(data)
 document.querySelector("#cart-items").textContent = data.length;
 
 var sum = 0;
-// for (var i = 0; i < data.length; i++) {
-//     sum = sum + data[i].price;
-// }
+for (var i = 0; i < data.length; i++) {
+    sum = sum + data[i].price;
+}
 
 
 
