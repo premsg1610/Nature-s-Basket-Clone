@@ -1,0 +1,315 @@
+#adislider1{
+    width: 98%;
+    margin: auto;
+   
+}
+.carousel-item img{
+    border-radius: 10px;
+    /* border: 1px solid blue; */
+}
+.carousel-indicators button{
+    font-size: 10px;
+}
+#adi2box{
+    width: 98%;
+    display: flex;
+
+    margin: auto;
+    /* gap: 18px; */
+    margin-top: 20px;
+    justify-content:space-between
+    
+}
+#adi2box>div >img{
+    border-radius: 10px;
+    box-shadow: 2px 5px #a09191bd;
+
+}
+#adiHeading {
+    background: #ffffff;
+   text-align: center;
+  margin-top: 30px;
+     text-transform: uppercase;
+    font-family: 'CeraPRO-Regular'; 
+    /* margin-top: -2px; */
+    display: flex;
+    /* border:1px solid black; */
+justify-content: center;
+align-items: center;
+
+}
+#adiHeading>div{
+ 
+   margin-left: 30px;
+ 
+}
+.dash{
+    width: 200px;
+    color: rgb(148, 148, 148);
+}
+.card-img img {
+    cursor: pointer;
+    width:100% !important;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(200, 135, 97, 0.37);
+}
+#adi4slider {
+    width: 100% !important;
+    margin-top: 10px;
+    /* border: 1px solid blue; */
+}
+.swiper-slide {
+    text-align: center;
+    /* font-size: 18px; */
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+
+ .card{
+        border: none;
+  
+    }
+    .card-body{
+        /* border: 1px solid red; */
+      height: auto;
+    }
+
+ .card-body h4{
+
+    color: #333333;
+    display: block;
+    font-family: "CeraPRO-Regular";
+    font-size: 20px;
+    letter-spacing: 1px;
+    /* padding: 10px 0 10px 3px; */
+    text-align: left;
+ }
+ .card-body p{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: -10px; */
+}
+.card-body p a{
+/* border: 1px solid black; */
+    color: grey;
+    /* margin-bottom: 20px; */
+}
+
+.card-body p a:hover{
+    border:none;
+text-decoration: none;
+color:grey ;
+}
+
+#view{
+  color: #a2c976;
+}
+#arrow{
+    /* align-items: center; */
+color: rgb(183, 180, 180);
+font-size: 10px;
+    /* border: 1px solid red; */
+}
+
+/* .swiper-button-next{
+background-position: center center; 
+background-repeat: no-repeat;
+background-size: 100% auto;
+cursor: pointer;
+color: black !important;
+    top: 65%;
+    margin-top: -100px;
+    outline: 0;
+    width: 18px;
+    height: 34px;
+}
+.swiper-button-prev{
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    color: black;
+        top: 65%;
+        margin-top: -100px;
+        outline: 0;
+        width: 18px;
+        height: 34px; 
+} */
+#Adislider2{
+    width: 100%;
+}
+#AdiProduct{
+    height: 470px;
+    width: 98%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    margin-top: 10px;
+    gap: 20px;
+    margin-bottom: 80px !important;
+    padding-bottom: 30px !important;
+   
+    
+}
+#AdiProduct> #Adibox{
+    /* border: 2px solid blue; */
+    padding: 7px;
+    transition: all .2s ease-in-out;
+    margin-bottom: 30px !important;
+    padding-bottom: 30px !important;
+    
+}
+#AdiProduct>div:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 3px 5px rgb(209, 207, 207);
+}
+#Adiproimg{
+    height:60%;
+    border: 0.2px solid rgb(238, 238, 238);
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 1px 2px #efe9e9;
+}
+#AdiMaindesc{
+    margin-top: 10px;
+    text-align: center;
+}
+#Adidelivery{
+    /* margin-bottom: -3%; */
+    font-weight: bolder;
+    border: 1px solid rgb(182, 22, 113);
+    margin-left: 40px;
+    width: 65%;
+    margin-top: 15px;
+    border-radius: 10px;
+    background: rgba(208, 178, 139, 0.09); 
+}
+#Adidelivery>span{
+    /* transform: translate3d(0px, 0px, -100px);
+    transition: transform 0.35s ease 0s; */
+  
+    font-size: 11px;
+    padding: 2px 6px 2px 4px;
+    position: relative;
+    z-index: 9;
+    color: #880033;
+    /* text-transform: uppercase; */
+    /* top: -3px;  */
+    text-align: center;
+    letter-spacing: 1px;
+    display: block;
+}
+#adiancher{
+    cursor: pointer;
+    outline: 0 none;
+    text-decoration: none;
+    color: #880033;
+
+}
+#Adimrpcart{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    /* justify-content: space-around; */
+    align-items: center;
+ 
+}
+
+#Adimrpcart>div>p{
+    font-family: "CeraPRO-Light";
+    font-size: 13px;
+    padding-left: 3px;
+    border: 1px solid #cfcfcf;
+    padding: 9px 10px;
+    border-right: 1;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.AdiButtonadd{
+    width: 97px;
+    height: 40px;
+
+   background: #92be4d no-repeat center center;
+    color: white;
+    cursor: pointer;
+    float: right;
+    border-radius: 10px;
+    border: 1px solid #cfcfcf;
+    margin-bottom: 5px;
+}
+#AdiOurEvent{
+    height: 338px;
+width: 98%;
+margin: auto;
+/* border: 1px solid black; */
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: auto;
+justify-content: space-evenly;
+gap: 25px;
+
+}
+#AdiOurEvent>div{
+  
+    /* border: 1px solid red; */
+    margin-left: 0px;
+    border-radius: 10px;
+}
+#AdiOurEvent img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+#AdiContent{
+   
+    display: block;
+  margin: auto;
+    width: 98%;
+    background: #ffffff;
+    position: relative;
+    margin-top: 10px;
+}
+#AdiContent >div>h3{
+    font-family: 'CeraPRO-Medium';
+ color: black;
+    margin-bottom: -2px;
+}
+#AdiContent >div>h3>p{
+
+    margin: 0 0 20px;
+    font-size: 13px; 
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 0;
+    font-weight: normal;
+}
+#AdiFootline{
+    width: 98%;
+    margin: auto;
+    font-size: 11px;
+    color: #858585;
+    margin-top: 20px;
+}
