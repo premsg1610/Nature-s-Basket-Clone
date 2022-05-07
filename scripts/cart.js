@@ -16,7 +16,7 @@ console.log(data)
 
 
 function append(data) {
-    
+ 
 
     data.map(function (el) {
 
@@ -41,9 +41,9 @@ function append(data) {
 
         let posBtn = document.createElement("button")
         posBtn.innerText = "+";
-
+       
         let count = document.createElement("p")
-        count.innerText = el.qty;
+        count.innerText = 1;
 
         let countDiv = document.createElement("div")
         countDiv.append(negBtn, count, posBtn)
@@ -85,46 +85,43 @@ function append(data) {
 
         }
         
-        negBtn.onclick = () => {
-            if (el.qty > 0) {
-                el.qty -= 1
-                count.innerText = el.qty
 
-                td4.innerText = el.price * el.qty
+        negBtn.onclick = () => {
+            if (count.innerText > 0) {
+                count.innerText = +(count.innerText)-1;
+              
+
+                td4.innerText = el.price *  count.innerText;
                 localStorage.setItem("cart", JSON.stringify(data))
             }
           
         }
         posBtn.onclick = () => {
-            el.qty += 1
-            count.innerText = el.qty
-            td4.innerText = el.price * el.qty
+            count.innerText = +(count.innerText)+1;
+         
+            td4.innerText = el.price * count.innerText
            localStorage.setItem("cart", JSON.stringify(data))
         }
         
     })
-    
 }
 append(data)
 document.querySelector("#cart-items").textContent = data.length;
 
-// handleNegCount = (name) => {
-//     var cartData = JSON.parse(localStorage.getItem("newCart"))
-//     cartData.map(e => {
-//         if (e.name == name) {
-//             e.qty -= 1
-//             console.log(e.qty)
-//         }
-//     });
-//     localStorage.setItem("newCart", JSON.stringify(cartData))
-//     console.log(name)
-
+var sum = 0;
+// for (var i = 0; i < data.length; i++) {
+//     sum = sum + data[i].price;
 // }
 
-var sum = 0;
-for (var i = 0; i < data.length; i++) {
-    sum = sum + data[i].price;
-}
+
+
+
+
+
+
+
+
+
 console.log(sum)
 document.querySelector("#sub-total").textContent = `Rs ${sum}`
 
