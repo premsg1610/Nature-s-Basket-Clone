@@ -1,19 +1,24 @@
+// import header from "../components/header.js"
+// document.getElementById("header").innerHTML=header();
+
+import {footer} from "../components/footer.js";
+let n =document.getElementById("pr_footer");
+n.innerHTML=footer();
+
 import header from "../components/header.js"
-document.getElementById("header").innerHTML=header();
+document.getElementById("header").innerHTML=header()
 
 
 
-const data = JSON.parse(localStorage.getItem("cart"))
+let data = JSON.parse(localStorage.getItem("cart"))
 console.log(data)
 
 
 
 function append(data) {
-    
+ 
 
     data.map(function (el) {
-
-
 
         let table = document.createElement("table")
         table.setAttribute("id", "tb")
@@ -34,9 +39,14 @@ function append(data) {
 
         let posBtn = document.createElement("button")
         posBtn.innerText = "+";
-
+       
         let count = document.createElement("p")
-        count.innerText = el.qty;
+        count.innerText = 1;
+        const cartData = JSON.parse(localStorage.getItem("cart"))
+        const currentCartEl = cartData.find(product=> product.name === el.name )
+        currentCartEl.qty = 1;
+        localStorage.setItem("cart", JSON.stringify(cartData))
+
 
         let countDiv = document.createElement("div")
         countDiv.append(negBtn, count, posBtn)
@@ -61,9 +71,6 @@ function append(data) {
         document.querySelector("#container").append(table, hr)
 
 
-
-
-
         var target=0;
 
         rmvbtn.onclick=function(e)
@@ -74,61 +81,51 @@ function append(data) {
             data.pop()
             localStorage.setItem("cart",JSON.stringify(data))
             e.currentTarget.parentNode.remove()
+            calculateSubTotal()
             window.location.reload()
 
         }
         
-        negBtn.onclick = () => {
-            if (el.qty > 0) {
-                el.qty -= 1
-                count.innerText = el.qty
 
-                td4.innerText = el.price * el.qty
-                localStorage.setItem("cart", JSON.stringify(data))
+        negBtn.onclick = () => {
+            if (count.innerText > 0) {
+                var  newQty = Number(count.innerText) -1;
+                count.innerText = newQty;
+             
+                td4.innerText = el.price * newQty;
+                const cartData = JSON.parse(localStorage.getItem("cart"))
+                const currentCartEl = cartData.find(product=> product.name === el.name )
+                currentCartEl.qty = newQty;
+                localStorage.setItem("cart", JSON.stringify(cartData))
+                calculateSubTotal(cartData);
             }
           
         }
         posBtn.onclick = () => {
-            el.qty += 1
-            count.innerText = el.qty
-            td4.innerText = el.price * el.qty
-           localStorage.setItem("cart", JSON.stringify(data))
+            var  newQty = Number(count.innerText) +1;
+            count.innerText = newQty;
+         
+            td4.innerText = el.price * newQty;
+            const cartData = JSON.parse(localStorage.getItem("cart"))
+            const currentCartEl = cartData.find(product=> product.name === el.name )
+            currentCartEl.qty = newQty;
+            localStorage.setItem("cart", JSON.stringify(cartData))
+            calculateSubTotal(cartData);
         }
         
     })
-    
 }
 append(data)
 document.querySelector("#cart-items").textContent = data.length;
 
-// handleNegCount = (name) => {
-//     var cartData = JSON.parse(localStorage.getItem("newCart"))
-//     cartData.map(e => {
-//         if (e.name == name) {
-//             e.qty -= 1
-//             console.log(e.qty)
-//         }
-//     });
-//     localStorage.setItem("newCart", JSON.stringify(cartData))
-//     console.log(name)
 
-// }
-
-var sum = 0;
-for (var i = 0; i < data.length; i++) {
-    sum = sum + data[i].price;
-}
-console.log(sum)
-document.querySelector("#sub-total").textContent = `Rs ${sum}`
-
-var total = sum + 50;
-document.querySelector("#total").textContent = `Rs ${total}`;
 
 document.querySelector("#promo").addEventListener("click", applypromo)
 function applypromo() {
     let code = document.querySelector("#promoCode").value;
+    let subTotal =  Number(document.querySelector("#sub-total").textContent.slice(3));
     if (code == "NB50") {
-        total = total - total * 0.5;
+        let total = subTotal - subTotal * 0.5 + 50;
         document.querySelector("#discount").textContent = "50%"
         document.querySelector("#total").textContent = `Rs ${total}`;
     }
@@ -140,3 +137,19 @@ document.querySelector("#pr_proceed").addEventListener("click", function () {
 document.querySelector("#pr_continue").addEventListener("click", function () {
     window.location.href = "#"
 })
+
+function calculateSubTotal(cartData) {
+    var sum = 0;
+    const dataToProcess = cartData || data
+    for (const product of dataToProcess) {
+        sum = sum + product.price*(product.qty || 1);
+    }
+
+console.log(sum)
+document.querySelector("#sub-total").textContent = `Rs ${sum}`
+
+var total = sum + 50;
+document.querySelector("#total").textContent = `Rs ${total}`;
+}
+
+calculateSubTotal()
