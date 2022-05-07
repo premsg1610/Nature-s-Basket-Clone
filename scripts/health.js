@@ -1,4 +1,6 @@
 
+import header from "../components/header.js"
+document.getElementById("header").innerHTML = header()
 
 import {appendData, sort, filter} from "./fetch_pg.js";
 
