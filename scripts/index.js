@@ -3,7 +3,7 @@ let n =document.getElementById("AdiMainContainer");
 n.innerHTML=footer();
 
 import header from "../components/header.js"
-document.getElementById("header").innerHTML=header()
+document.getElementById("header").innerHTML=header();
 
 
 // var swiper = new Swiper('.swiper-container', {
