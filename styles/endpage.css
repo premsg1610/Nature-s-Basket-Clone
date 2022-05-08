@@ -1,0 +1,38 @@
+#animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 80%;
+margin: auto;
+    margin-top: 100px;
+   background-color: rgb(231, 128, 9);
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+border-radius: 50px;
+}
+#endpage1{
+    font-size: 50px;
+ text-align: center;
+   /* color: brown; */
+   font-weight: bolder;
+   /* margin-top: 140px;  */
+}
+#animation::after{
+    content: " ";
+    background-color: white;
+    color: rgb(128, 0, 87);
+    font-size: 50px;
+    animation: textrotate 3s linear infinite;
+    -webkit-animation: textrotate 3s linear infinite;
+}
+@keyframes textrotate{
+    0%{
+        content: "Thanks For Shopping";
+    }
+    /* 50%{
+        content: "";
+    } */
+    100%{
+        content: "Stay Safe and healthy";
+    }
+}

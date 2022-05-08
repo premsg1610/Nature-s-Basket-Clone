@@ -142,7 +142,14 @@ function calculateSubTotal(cartData) {
     var sum = 0;
     const dataToProcess = cartData || data
     for (const product of dataToProcess) {
-        sum = sum + product.price*(product.qty || 1);
+        // sum = sum + product.price*(product.qty || 1);
+        if(product.qty==0)
+        {
+            sum=0;
+        }
+        else{
+            sum = sum + product.price*(product.qty || 1);
+        }
     }
 
 console.log(sum)
