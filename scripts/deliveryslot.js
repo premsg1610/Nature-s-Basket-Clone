@@ -26,3 +26,8 @@ document.getElementById("proceed").addEventListener("click",selected)
 function selected(){
     alert("Your have selected slot"+" "+values);
 }
+
+document.getElementById("proceed1").addEventListener("click",selected1)
+function selected1(){
+    alert("Your have selected slot"+" "+values);
+}

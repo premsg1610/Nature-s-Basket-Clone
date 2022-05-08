@@ -1,8 +1,8 @@
-body {
+/* body {
     font-family: Arial;
     font-size: 17px;
     padding: 8px;
-  }
+  } */
   
   * {
     box-sizing: border-box;
@@ -44,7 +44,7 @@ body {
     border-radius: 3px;
   }
   
-  input[type=text] {
+  .as_input{
     width: 100%;
     margin-bottom: 20px;
     padding: 12px;
@@ -67,14 +67,15 @@ body {
     background-color: #04AA6D;
     color: white;
     padding: 12px;
+    padding-left:20px;
     margin: 10px 0;
     border: none;
-    width: 50%;
+    width: 20%;
     border-radius: 3px;
     cursor: pointer;
     font-size: 17px;
     margin-left: 400px;
-  
+  outline: none;
   }
   
   #btn:hover {
@@ -82,7 +83,8 @@ body {
   }
   
   a {
-    color: #2196F3;
+    text-decoration: none;
+    color: black;
   }
   
   hr {
@@ -103,6 +105,6 @@ body {
       margin-bottom: 20px;
     }
 }
-h2{
+/* h2{
   text-align: center;
-}
+} */
