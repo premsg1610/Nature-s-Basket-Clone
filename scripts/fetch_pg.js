@@ -114,7 +114,7 @@ let appendData2 = (data,container) =>{
 
         let title = document.createElement("p")
         title.innerText = name;
-        title.setAttribute("id","title")
+        title.setAttribute("id","title_pg")
 
         let quantity = document.createElement("h4")
         quantity.innerText = "1 Pc";
@@ -344,11 +344,12 @@ let searchData = [
 
 let search = (selected) => {
 
-    window.location.href = "searchBar_pg.html" 
+    // window.location.href = "searchBar_pg.html" 
     let searchedList = searchData.filter(({name}) => {
         // console.log(name)
         let value = name.split(" ")
-        // console.log(value)
+        // console.log(value).
+        console.log(selected)
 
         return value.includes(selected) == true
        

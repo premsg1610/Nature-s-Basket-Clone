@@ -36,7 +36,7 @@
     color: black !important;
    }
 
-.s-pincode {
+/* .s-pincode {
     background-color: #F3F3F3;
     border: 1px solid lightgray;
     border-right: none;
@@ -54,7 +54,30 @@
     padding: 3.5px;
     margin-left: -115px;
     background-color: #F3F3F3;
+} */
+
+.s-pincode {
+    background-color: #F3F3F3;
+    border: 1px solid lightgray;
+    border-right: none;
+    padding: 3px 2px 3px 2px;
+    margin-right: -68px;
 }
+
+.s-icon {
+    font-size: 14px;
+}
+
+.s-dropdown {
+    border: 1px solid lightgray;
+    border-right: none;
+    padding: 3.5px;
+    margin-right: -68px;
+    background-color: #F3F3F3;
+    outline:none;
+}
+
+
 
 .s-btn {
     margin-left: -10px;
@@ -152,6 +175,7 @@
 .sidebar .nav-link:hover {
     background: var(--bs-light);
     color: var(--bs-primary);
+
 }
 
 #s-sidebar {
@@ -278,3 +302,45 @@
     margin: -1%;
 }
 /* Header CSS Ends Here */
+
+
+
+#searchBar_s{
+    /* border:1px solid rgb(179, 176, 176); */
+    width:600px;
+
+    
+}
+#input{
+    /* margin-left: -15px; */
+    padding: 3px;
+    outline: none !important;
+    width: 520px;
+    text-align: center;
+    height:32px;
+
+}
+#search_s{
+    width:6%;
+    height:34px;
+    border:none;
+    padding:4px;
+    margin-left:-6px;
+    border-radius:5px;
+    color:white;
+    background-color: #7DB72C;
+}
+
+#search_s:hover{
+    background-color: rgb(4, 139, 94);
+}
+
+
+.bi-cart4{
+    color:#7DB72C;
+
+}
+a{
+    text-decoration: none;
+
+}

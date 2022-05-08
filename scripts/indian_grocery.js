@@ -1,3 +1,9 @@
+import header from "../components/header.js"
+document.getElementById("header").innerHTML = header()
+
+import {footer} from "../components/footer.js"
+document.getElementById("AdiMainContainer").innerHTML = footer()
+
 
 
 import {appendData2, sorting, filter_2} from "./fetch_pg.js";

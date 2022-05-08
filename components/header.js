@@ -34,15 +34,14 @@ function header(){
         <option value="">Pune</option>
         <option value="">Delhi</option>
       </select>
-      <form class="d-flex">
-        <input class="form-control me-2 s-input" type="search"
-          placeholder="                                           Start Shopping....." aria-label="Search">
-        <button class="btn btn-outline-success s-btn" type="submit"><i class="bi bi-search s-icon2"></i></button>
-      </form>
+      <div id="searchBar_s">
+      <input id="input" type="text" placeholder="Start Shopping..."/>
+      <button id="search_s"><i class="bi bi-search s-icon2"></i></button>
+    </div>
       <div class="s-register">
         <i class="bi bi-star-fill"></i>
         <span>|</span>
-        <i class="bi bi-cart4"></i>
+        <a href="../cart.html"><i class="bi bi-cart4"></i></a>
         <button id="s-item">0</button>
       </div>
     </div>
@@ -50,7 +49,7 @@ function header(){
   <!--Header Ends-->
   <!--Submenu and Sidebar-->
   <div id="s-sidebar">
-    <p id="s-cat">SHOP BY CATOGORY &nbsp; <i class="bi bi-caret-down-fill"></i></p>
+    <p id="s-cat">SHOP BY CATEGORY &nbsp; <i class="bi bi-caret-down-fill"></i></p>
     <p>PAST PURCHASES</p>
     <p>GIFTING</p>
     <p>REWARDS</p>
@@ -96,27 +95,27 @@ function header(){
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"> Fruits & Vegetables <b class="float-end"><i
+                <a class="nav-link" href="../fruits&veg.html"> Fruits & Vegetables <b class="float-end"><i
                       class="bi bi-chevron-right"></i></b> </a>
                 <ul class="submenu dropdown-menu s-megamenu2 mega-li">
-                  <li><a class="nav-link" href="#" id="s-subcat">Daily Vegetables </a></li>
-                  <li><a class="nav-link" href="#">Beans & Brinjals</a></li>
-                  <li><a class="nav-link" href="#">Broccoli & Cauliflower</a></li>
-                  <li><a class="nav-link" href="#">Chillies, Garlic, Lemon & Ginger</a></li>
-                  <li><a class="nav-link" href="#">Cut Vegetables & Salad</a></li>
-                  <li><a class="nav-link" href="#">Gourd, Cucumber & Pumpkin</a></li>
-                  <li><a class="nav-link" href="#">Herbs & Sprouts</a></li>
-                  <li><a class="nav-link" href="#">Lettuce & leafy</a></li>
-                  <li><a class="nav-link" href="#">Truffles & Mushrooms</a></li>
-                  <li><a class="nav-link" href="#">Onions, Potatoes & Tomatoes</a></li>
-                  <li><a class="nav-link" href="#">Peas & Corn</a></li>
-                  <li><a class="nav-link" href="#">Peppers & Lady Fingers</a></li>
-                  <li><a class="nav-link" href="#">Root Vegetables</a></li>
-                  <li><a class="nav-link" href="#" id="s-subcat">Exotic Vegetables</a></li>
-                  <li><a class="nav-link" href="#">Asparagus & Artichokes</a></li>
-                  <li><a class="nav-link" href="#">Peas & Corn</a></li>
-                  <li><a class="nav-link" href="#">Peppers & Lady Fingers</a></li>
-                  <li><a class="nav-link" href="#">Root Vegetables</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html" id="s-subcat"> Fruits & Vegetables </a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html">Beans & Brinjals</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html">Broccoli & Cauliflower</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html">Chillies, Garlic, Lemon & Ginger</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html">Cut Vegetables & Salad</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html">Gourd, Cucumber & Pumpkin</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html">Herbs & Sprouts</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html">Lettuce & leafy</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html">Truffles & Mushrooms</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html">Onions, Potatoes & Tomatoes</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html">Peas & Corn</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html">Peppers & Lady Fingers</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html">Root Vegetables</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html" id="s-subcat">Exotic Vegetables</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html">Asparagus & Artichokes</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html">Peas & Corn</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html">Peppers & Lady Fingers</a></li>
+                  <li><a class="nav-link" href="../fruits&veg.html">Root Vegetables</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -133,43 +132,43 @@ function header(){
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"> Health<b class="float-end"><i class="bi bi-chevron-right"></i></b> </a>
+                <a class="nav-link" href="../health.html"> Health<b class="float-end"><i class="bi bi-chevron-right"></i></b> </a>
                 <ul class="submenu dropdown-menu s-megamenu4 mega-li">
-                  <li><a class="nav-link" href="#" id="s-subcat">Weight Management Foods </a></li>
-                  <li><a class="nav-link" href="#">Butters & Oils</a></li>
-                  <li><a class="nav-link" href="#">Dry Fruits, Muesli & Bran</a></li>
-                  <li><a class="nav-link" href="#">Flours & Grains</a></li>
-                  <li><a class="nav-link" href="#">Rice, Couscous & Quinoa</a></li>
-                  <li><a class="nav-link" href="#">Seafood</a></li>
-                  <li><a class="nav-link" href="#">Soups & Dressings</a></li>
-                  <li><a class="nav-link" href="#">Soya Snacks, Biscuits & More</a></li>
-                  <li><a class="nav-link" href="#">Suppliments</a></li>
-                  <li><a class="nav-link" href="#">Tea & Beverages</a></li>
-                  <li><a class="nav-link" href="#" id="s-subcat">Heart-Healthy Foods</a></li>
-                  <li><a class="nav-link" href="#">Amaranth, Couscous & Quinoa</a></li>
-                  <li><a class="nav-link" href="#">Flours, Rice & Condiments</a></li>
-                  <li><a class="nav-link" href="#">Breat & Breakfast</a></li>
-                  <li><a class="nav-link" href="#">Butters & Oils</a></li>
+                  <li><a class="nav-link" href="../health.html" id="s-subcat">Weight Management Foods </a></li>
+                  <li><a class="nav-link" href="../health.html">Butters & Oils</a></li>
+                  <li><a class="nav-link" href="../health.html">Dry Fruits, Muesli & Bran</a></li>
+                  <li><a class="nav-link" href="../health.html">Flours & Grains</a></li>
+                  <li><a class="nav-link" href="../health.html">Rice, Couscous & Quinoa</a></li>
+                  <li><a class="nav-link" href="../health.html">Seafood</a></li>
+                  <li><a class="nav-link" href="../health.html">Soups & Dressings</a></li>
+                  <li><a class="nav-link" href="../health.html">Soya Snacks, Biscuits & More</a></li>
+                  <li><a class="nav-link" href="../health.html">Suppliments</a></li>
+                  <li><a class="nav-link" href="../health.html">Tea & Beverages</a></li>
+                  <li><a class="nav-link" href="../health.html" id="s-subcat">Heart-Healthy Foods</a></li>
+                  <li><a class="nav-link" href="../health.html">Amaranth, Couscous & Quinoa</a></li>
+                  <li><a class="nav-link" href="../health.html">Flours, Rice & Condiments</a></li>
+                  <li><a class="nav-link" href="../health.html">Breat & Breakfast</a></li>
+                  <li><a class="nav-link" href="../health.html">Butters & Oils</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"> Indian Grocery<b class="float-end"><i class="bi bi-chevron-right"></i></b>
+                <a class="nav-link" href="../grocery.html"> Indian Grocery<b class="float-end"><i class="bi bi-chevron-right"></i></b>
                 </a>
                 <ul class="submenu dropdown-menu s-megamenu5 mega-li">
-                  <li><a class="nav-link" href="#" id="s-subcat">Flours, Grains & More </a></li>
-                  <li><a class="nav-link" href="#">Flours & Grains</a></li>
-                  <li><a class="nav-link" href="#">Rice </a></li>
-                  <li><a class="nav-link" href="#">Pulses</a></li>
-                  <li><a class="nav-link" href="#">Indian Breakfast Favourites</a></li>
-                  <li><a class="nav-link" href="#">Nuts & Dry Fruits</a></li>
-                  <li><a class="nav-link" href="#" id="s-subcat">Cooking Pastes & Sauces</a></li>
-                  <li><a class="nav-link" href="#">Cooking Pastes & Sauces</a></li>
-                  <li><a class="nav-link" href="#">Puree & Coconut Milk</a></li>
-                  <li><a class="nav-link" href="#" id="s-subcat">Cooking Spices & Powders</a></li>
-                  <li><a class="nav-link" href="#">Ground Spices</a></li>
-                  <li><a class="nav-link" href="#">Whole Spices</a></li>
-                  <li><a class="nav-link" href="#">Blendered Masalas</a></li>
-                  <li><a class="nav-link" href="#">Tamarind & Others</a></li>
+                  <li><a class="nav-link" href="../grocery.html" id="s-subcat">Flours, Grains & More </a></li>
+                  <li><a class="nav-link" href="../grocery.html">Flours & Grains</a></li>
+                  <li><a class="nav-link" href="../grocery.html">Rice </a></li>
+                  <li><a class="nav-link" href="../grocery.html">Pulses</a></li>
+                  <li><a class="nav-link" href="../grocery.html">Indian Breakfast Favourites</a></li>
+                  <li><a class="nav-link" href="../grocery.html">Nuts & Dry Fruits</a></li>
+                  <li><a class="nav-link" href="../grocery.html" id="s-subcat">Cooking Pastes & Sauces</a></li>
+                  <li><a class="nav-link" href="../grocery.html">Cooking Pastes & Sauces</a></li>
+                  <li><a class="nav-link" href="../grocery.html">Puree & Coconut Milk</a></li>
+                  <li><a class="nav-link" href="../grocery.html" id="s-subcat">Cooking Spices & Powders</a></li>
+                  <li><a class="nav-link" href="../grocery.html">Ground Spices</a></li>
+                  <li><a class="nav-link" href="../grocery.html">Whole Spices</a></li>
+                  <li><a class="nav-link" href="../grocery.html">Blendered Masalas</a></li>
+                  <li><a class="nav-link" href="../grocery.html">Tamarind & Others</a></li>
                 </ul>
               </li>
               <li class="nav-item">
