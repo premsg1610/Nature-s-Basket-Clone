@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><img src="https://www.naturesbasket.co.in/Images/logosnew.png?v=2" alt="" id="logo">
-        Nature's Basket</title>
+    <title><img src="https://www.naturesbasket.co.in/Images/logosnew.png?v=2" alt="" id="logo">Nature's Basket</title>
+        
+    
+    <!-- <link rel="stylesheet" href="./styles/header1.css"> -->
+    <link rel="icon" href="https://gnbdevcdn.s3.amazonaws.com/Images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./styles/bookstore.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/header1.css">
 </head>
 
 <body>
+  <div id="header"></div>
    <div>
        <div>
-        <a href="./index.html"><img src="https://www.naturesbasket.co.in/Images/logosnew.png?v=2" alt=""></a>
+        <a href="./index.html"><img id="img_prat" src="https://www.naturesbasket.co.in/Images/logosnew.png?v=2" alt=""></a>
        </div>
        <div id="main_content">
         <div id="upper_part">
           <div id="upper_top">
              <div>
-               <h4>City:*</h4>
+               <h4 class="h4_prat">City:*</h4>
                <select name="" id="cities_list">
                 <option value="">Select City</option>
                 <option value="Mumbai">Mumbai</option>
@@ -27,7 +36,7 @@
             </select>
              </div>
              <div>
-                <h4>Store:*</h4>
+                <h4 class="h4_prat">Store:*</h4>
                 <select name="" id="store_list">
                  <option value="">Select Store</option>
                  <option value="NB">NB Koregaon Park</option>
@@ -37,18 +46,18 @@
           </div>
           <div id="upper_bottom">
               <div>
-                <h4>Date:*</h4>
+                <h4 class="h4_prat">Date:*</h4>
                 <input type="date" id="Give_date">
               </div>
               <div>
-                <h4>Mobile Number:*</h4>
-                <input type="mobile" id="mobile_inp">
+                <h4 class="h4_prat">Mobile Number:*</h4>
+                <input type="number" id="mobile_inp">
               </div>
           </div>
         </div>
         <div id="lowerpart">
            <div id="choose-word">
-             <h4>Choose Your Shopping Slot</h4>
+             <h4 class="h4_prat">Choose Your Shopping Slot</h4>
            </div>
            <div id="actual_choose">
              <div id="slots_time">
@@ -58,6 +67,13 @@
         </div>
        </div>
    </div>
+
+   <div id="pr_footer"></div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 </html>
-<script src="./scripts/bookstore.js"></script>
+<script src="./scripts/bookstore.js" type="module"></script>
+
+<script src="./scripts/header1.js" type="module"></script>

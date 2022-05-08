@@ -28,6 +28,7 @@
     margin-top: -10px !important;
     width: 315px;
     height: 85px;
+
    }
 
 #s-nav {
@@ -340,7 +341,15 @@
     color:#7DB72C;
 
 }
+.bi-star-fill{
+    color:#7DB72C
+}
+ 
 a{
     text-decoration: none;
+    color:black
 
+}
+a:hover{
+    color:black
 }

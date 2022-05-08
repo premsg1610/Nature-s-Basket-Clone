@@ -1,4 +1,4 @@
-img{
+#img_prat{
     height: 50px;
     width: 130px;
     margin-left: 150px;
@@ -7,8 +7,8 @@ img{
 }#main_content{
     height: 600px;
     width: 1200px;
-    
-    margin-left: 150px;
+    /* border:1px solid; */
+    margin:auto;
     justify-content: space-between;
     overflow: hidden;
 }
@@ -34,7 +34,8 @@ img{
 }#upper_bottom>div{
     width: 45%;
     
-}h4{
+}
+.h4_prat{
     margin-bottom: 3px;
     margin-top: 15px;
 }#cities_list{
@@ -47,11 +48,11 @@ img{
     border-radius: 5px;
 }#Give_date{
     height: 57%;
-    width: 99%;
+    width: 100%;
     border-radius: 5px;
 }#mobile_inp{
     height: 55%;
-    width: 99%;
+    width: 100%;
     border-radius: 5px;
 }#choose-word{
     height: 50px;
@@ -75,28 +76,41 @@ img{
     height: auto;
     border-radius: 5px;
     
-}button{
-    background-color: green;
+}.button_prat{
+    background-color:#7DB72C;
     margin-left: 10px;
     height: 30px;
     color: white;
     border-radius: 5px;
     border: none;
 
-}button:hover{
+}.button_prat:hover{
     transform: scale(1.2);
     
 }
 #OTP{
     height: 90px;
     width: 90%;
-    
-    
     margin: auto;
-}h5{
+}.h5_prat{
     margin-bottom: 0px;
     margin-top: 5px;
 }#logo{
     height: 10px;
     width:20px;
+}
+#label_prat{
+   padding:10px;
+   padding-left:15px;
+    color:white
+}
+#radio_prat{
+    margin-left:15px;
+}
+#OTP > button{
+    background-color: #7DB72C;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    padding:10px;
 }
