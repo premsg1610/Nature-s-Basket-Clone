@@ -17,5 +17,6 @@ function checkout()
 document.querySelector("#lowerbutton").addEventListener("click",check)
 function check()
 {
+  alert("continue shopping")
   window.location.href="#"
 }

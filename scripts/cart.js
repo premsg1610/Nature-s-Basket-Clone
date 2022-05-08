@@ -19,7 +19,7 @@ function append(data) {
  
 
     data.map(function (el) {
-
+        el.qty=1
         let table = document.createElement("table")
         table.setAttribute("id", "tb")
 
@@ -88,33 +88,50 @@ function append(data) {
         
 
         negBtn.onclick = () => {
-            if (count.innerText > 0) {
-                var  newQty = Number(count.innerText) -1;
-                count.innerText = newQty;
+            // if (count.innerText > 0) {
+            //     var  newQty = Number(count.innerText) -1;
+            //     count.innerText = newQty;
              
-                td4.innerText = el.price * newQty;
-                const cartData = JSON.parse(localStorage.getItem("cart"))
-                const currentCartEl = cartData.find(product=> product.name === el.name )
-                currentCartEl.qty = newQty;
-                localStorage.setItem("cart", JSON.stringify(cartData))
-                calculateSubTotal(cartData);
+            //     td4.innerText = el.price * newQty;
+            //     const cartData = JSON.parse(localStorage.getItem("cart"))
+            //     const currentCartEl = cartData.find(product=> product.name === el.name )
+            //     currentCartEl.qty = newQty;
+            //     localStorage.setItem("cart", JSON.stringify(cartData))
+            //     calculateSubTotal(cartData);
+            // }
+            if (el.qty > 0) {
+                el.qty -= 1
+                count.innerText = el.qty
+
+                td4.innerText = el.price * el.qty
+                localStorage.setItem("cart", JSON.stringify(data))
             }
+            TotalSum()
           
         }
         posBtn.onclick = () => {
-            var  newQty = Number(count.innerText) +1;
-            count.innerText = newQty;
+        //     var  newQty = Number(count.innerText) +1;
+        //     count.innerText = newQty;
          
-            td4.innerText = el.price * newQty;
-            const cartData = JSON.parse(localStorage.getItem("cart"))
-            const currentCartEl = cartData.find(product=> product.name === el.name )
-            currentCartEl.qty = newQty;
-            localStorage.setItem("cart", JSON.stringify(cartData))
-            calculateSubTotal(cartData);
-        }
+        //     td4.innerText = el.price * newQty;
+        //     const cartData = JSON.parse(localStorage.getItem("cart"))
+        //     const currentCartEl = cartData.find(product=> product.name === el.name )
+        //     currentCartEl.qty = newQty;
+        //     localStorage.setItem("cart", JSON.stringify(cartData))
+        //     calculateSubTotal(cartData);
+        // }
+        el.qty += 1
+        count.innerText = el.qty
+        td4.innerText = el.price * el.qty
+       localStorage.setItem("cart", JSON.stringify(data))
+       TotalSum()
+    }
         
     })
 }
+
+
+console.log(data)
 append(data)
 document.querySelector("#cart-items").textContent = data.length;
 
@@ -138,18 +155,39 @@ document.querySelector("#pr_continue").addEventListener("click", function () {
     window.location.href = "#"
 })
 
-function calculateSubTotal(cartData) {
-    var sum = 0;
-    const dataToProcess = cartData || data
-    for (const product of dataToProcess) {
-        sum = sum + product.price*(product.qty || 1);
-    }
+// function calculateSubTotal(cartData) {
+//     var sum = 0;
+//     const dataToProcess = cartData || data
+//     for (const product of dataToProcess) {
+//         sum = sum + product.price*(product.qty || 1);
+//         // if(product.qty==0)
+//         // {
+//         //     sum=0;
+//         // }
+//         // else{
+//         //     sum = sum + product.price*(product.qty || 1);
+//         // }
+//     }
 
-console.log(sum)
-document.querySelector("#sub-total").textContent = `Rs ${sum}`
 
-var total = sum + 50;
+
+    function TotalSum(){
+        var sum = 0;
+        var cartData = JSON.parse(localStorage.getItem("cart"))
+        console.log(cartData)
+        for (var i = 0; i < cartData.length; i++) {
+            sum = sum + (cartData[i].price*cartData[i].qty);
+        }
+        console.log(sum)
+        document.querySelector("#sub-total").textContent = `Rs ${sum}`
+        var total = sum + 50;
 document.querySelector("#total").textContent = `Rs ${total}`;
-}
+        }
+        TotalSum()
 
-calculateSubTotal()
+
+
+
+
+
+// calculateSubTotal()

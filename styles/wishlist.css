@@ -1,0 +1,35 @@
+
+#wishtb{
+ border: 1px solid #d2c6c6; 
+width: 100%;
+height: 70px;
+     margin-bottom: 30px;
+    
+    background-color: #f1f1f1
+  
+  }
+
+   #wh_img{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+ #wishlistcontainer{
+     margin:20px 0px;
+ }
+ td{
+     width: 25%;
+ }
+ #add{
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: #92BE4D;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+  }
+  #add:hover{
+    background-color: #2f430d;
+    color: white;
+  }
