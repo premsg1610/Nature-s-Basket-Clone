@@ -67,6 +67,7 @@ background-color:#ffffff;
      justify-content: space-evenly; 
      border-bottom: 3px solid #92BE4D;
      align-items: flex-end;
+     border:1px solid red;
   
 }
 
@@ -117,18 +118,20 @@ td{
 #as_my{
   font-size: 20px;
   margin-top: 30px;
+  margin-left:10px;
 }
 #as_im{
-  margin-left: -300px;
+  margin-left: -200px;
+  margin-right:100px;
 }
  #as_nm{
   margin-right: 10px;
 }
  #as_qty{
-  margin-right: 30px;
+  margin-right: 85px;
 }  
 #as_price{
-  margin-right: 90px;
+  margin-right: 80px;
 } 
 
 #as_countDiv{
