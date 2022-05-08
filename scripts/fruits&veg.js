@@ -1,6 +1,11 @@
 import header from "../components/header.js"
 document.getElementById("header").innerHTML = header()
 
+
+import {footer} from "../components/footer.js"
+document.getElementById("AdiMainContainer").innerHTML = footer()
+
+
 import {appendData, sort, filter,search} from "./fetch_pg.js";
 
 
@@ -155,25 +160,24 @@ document.getElementById("clear").addEventListener("click",function(){
 // import {search,appendData} from "./fetch_pg.js";
 
 
-let searchResult = JSON.parse(localStorage.getItem("searched"))
+// let searchResult = JSON.parse(localStorage.getItem("searched"))
 
 
 
-let searchProduct = (e) => {
+// let searchProduct = (e) => {
 
-    let selected = document.getElementById("input").value
+//     let selected = document.getElementById("input").value
 
-        let gridBox = document.getElementById("gridBox")
+//         // let gridBox = document.getElementById("gridBox")
+// console.log(selected)
+//         if(e.key == "Enter")
+//         {
+//             search(selected)
 
-        if(e.key == "Enter")
-        {
+//             let gridBox = document.getElementById("gridBox")
+//             appendData(searchResult,gridBox)
 
-            search(selected)
+//         }
+// }
 
-            let gridBox = document.getElementById("gridBox")
-            appendData(searchResult,gridBox)
-
-        }
-}
-
-document.getElementById("input").addEventListener("keydown",searchProduct)
+// document.getElementById("input").addEventListener("keydown",searchProduct)

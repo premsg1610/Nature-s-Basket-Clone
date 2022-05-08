@@ -1,5 +1,13 @@
 
 
+import header from "../components/header.js"
+document.getElementById("header").innerHTML = header()
+
+
+import {footer} from "../components/footer.js"
+document.getElementById("AdiMainContainer").innerHTML = footer()
+
+
 import {appendData,search} from "./fetch_pg.js";
 
 
@@ -10,7 +18,7 @@ let gridBox = document.getElementById("gridBox")
 if(searchResult.length == 0)
 {
     alert("Product not available")
-    window.location.href = "fruits&veg.html"
+    // window.location.href = "index.html"
 }
 else{
     appendData(searchResult,gridBox)
@@ -22,17 +30,18 @@ else{
 
 let searchProduct = (e) => {
 
+    e.preventDefault()
     let selected = document.getElementById("input").value
 
-        let gridBox = document.getElementById("gridBox")
+        // let gridBox = document.getElementById("gridBox")
 
-        if(e.key == "Enter")
-        {
+        // if(e.key == "Enter")
+        // {
             search(selected)
-        }
+        // }
 }
 
-document.getElementById("input").addEventListener("keydown",searchProduct)
+document.querySelector(". d-flex").addEventListener("submit",searchProduct)
 
 
 

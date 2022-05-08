@@ -5,6 +5,8 @@ n.innerHTML=footer();
 import header from "../components/header.js"
 document.getElementById("header").innerHTML=header()
 
+import {appendData,search} from "./fetch_pg.js";
+
 
 // var swiper = new Swiper('.swiper-container', {
 //     navigation: {
@@ -41,3 +43,4 @@ var swiper = new Swiper(".mySwiper-fluild", {
     prevEl: ".swiper-button-prev",
   },
 });
+
