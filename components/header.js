@@ -39,9 +39,9 @@ function header(){
       <button id="search_s"><i class="bi bi-search s-icon2"></i></button>
     </div>
       <div class="s-register">
-        <a href="../wishlist.html"><i class="bi bi-star-fill"></i></a>
+        <a href="./wishlist.html"><i class="bi bi-star-fill"></i></a>
         <span>|</span>
-        <a href="../cart.html"><i class="bi bi-cart4"></i></a>
+        <a href="./cart.html"><i class="bi bi-cart4"></i></a>
         <button id="s-item">0</button>
       </div>
     </div>
@@ -95,10 +95,10 @@ function header(){
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../fruits&veg.html"> Fruits & Vegetables <b class="float-end"><i
+                <a class="nav-link" href="./fruits&veg.html"> Fruits & Vegetables <b class="float-end"><i
                       class="bi bi-chevron-right"></i></b> </a>
                 <ul class="submenu dropdown-menu s-megamenu2 mega-li">
-                  <li><a class="nav-link" href="../fruits&veg.html" id="s-subcat"> Fruits & Vegetables </a></li>
+                  <li><a class="nav-link" href="./fruits&veg.html" id="s-subcat"> Fruits & Vegetables </a></li>
                   <li><a class="nav-link" href="../fruits&veg.html">Beans & Brinjals</a></li>
                   <li><a class="nav-link" href="../fruits&veg.html">Broccoli & Cauliflower</a></li>
                   <li><a class="nav-link" href="../fruits&veg.html">Chillies, Garlic, Lemon & Ginger</a></li>
