@@ -8,15 +8,15 @@ document.getElementById("header").innerHTML=header()
 
 
 
-document.querySelector(".placeorder").addEventListener("click",checkout)
-function checkout()
-{
-    alert("continue shopping")
-  window.location.href="#"
-}
-document.querySelector("#lowerbutton").addEventListener("click",check)
-function check()
-{
-  alert("continue shopping")
-  window.location.href="#"
-}
+// document.querySelector(".placeorder").addEventListener("click",checkout)
+// function checkout()
+// {
+//     alert("continue shopping")
+//   window.location.href="#"
+// }
+// document.querySelector("#lowerbutton").addEventListener("click",check)
+// function check()
+// {
+//   alert("continue shopping")
+//   window.location.href="#"
+// }

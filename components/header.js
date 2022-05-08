@@ -11,7 +11,7 @@ function header(){
     <span>|</span>
     <p> <a href="#">Store Locator</a></p>
     <span>|</span>
-    <p> <a href="#">Contact us</a></p>
+    <p> <a href="https://www.naturesbasket.co.in/NBL_Contact_Us.aspx">Contact us</a></p>
     <span>|</span>
     <div class="s-login">
       <p ><a href="./login.html">Login </a> </p>
@@ -21,7 +21,7 @@ function header(){
   </div>
   <nav class="navbar navbar-expand-lg,navbar-light, pt-0,mt-0" id="s-nav">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="../index.html">
         <img src="https://www.naturesbasket.co.in/Images/logosnew.png?v=2" id="s-img">
       </a>
       <button class="s-pincode rounded-start "><i class="bi bi-pencil-fill fst-normal s-icon"> Enter Pin
@@ -39,7 +39,7 @@ function header(){
       <button id="search_s"><i class="bi bi-search s-icon2"></i></button>
     </div>
       <div class="s-register">
-        <i class="bi bi-star-fill"></i>
+        <a href="../wishlist.html"><i class="bi bi-star-fill"></i></a>
         <span>|</span>
         <a href="../cart.html"><i class="bi bi-cart4"></i></a>
         <button id="s-item">0</button>
@@ -53,9 +53,9 @@ function header(){
     <p>PAST PURCHASES</p>
     <p>GIFTING</p>
     <p>REWARDS</p>
-    <p>BLOG</p>
+    <p><a href="https://blog.naturesbasket.co.in/">BLOG</a></p>
     <p>CONNOISSEUR'S SELECTION</p>
-    <p>BOOK STORE VISIT</p>
+    <p><a href="../bookstore.html">BOOK STORE VISIT</a></p>
   </div>
   <div class="container-fluid" id="s-container" hidden>
     <section class="section-content">
