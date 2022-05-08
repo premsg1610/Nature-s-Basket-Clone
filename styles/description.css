@@ -1,0 +1,51 @@
+.asdrow{
+    display: flex;
+}
+.asdbuy-btn{
+    background-color: green; 
+    border-radius: 10px; 
+}
+
+.asdbox1{
+margin-left: 140px;
+font-size: medium;   
+margin-top: 40px;    
+}
+
+button{
+    height: 50px;
+    width: 120px;
+    font-size: larger;
+    border-radius: 10px;
+    
+}
+.asdbox21{
+    border: 2px solid  gray;
+    height: 450px;
+    width: 900x; 
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+.header{
+    border-bottom: 1px solid #e1e1e1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
