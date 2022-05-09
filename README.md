@@ -52,36 +52,50 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 - ![CSS3](https://img.shields.io/badge/-CSS3-000000?style=for-the-badge&logo=CSS3)
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=for-the-badge&logo=javascript) 
 - (DOM Manipulation, Local Storage)
-- ![BOOTSTRAP](https://avatars.githubusercontent.com/u/2918581?s=280&v=4)
+- BOOTSTRAP
 
 ## Screenshots :
 
 **Home Page**
 
-![home screen](https://user-images.githubusercontent.com/101566001/161380715-1a693d2c-a3a0-4bc3-8b90-3664f509a9fb.png)
+![Home Page](https://user-images.githubusercontent.com/101566046/167378276-5991087a-472b-47ff-ac0b-d47a1de0523a.png)
 
 
-**Products DropDown**
 
-![Products dropdown](https://user-images.githubusercontent.com/101566001/161380844-fc7544da-1dec-4d91-ac2b-e528afb8b255.png)
+**Category DropDown**
 
-**Women's Page**
-
-![Women Page](https://user-images.githubusercontent.com/101566001/161380905-661ee959-0fea-4dbd-b9f9-c2c3796b12ec.png)
-
-**Men's page**
-
-![Men page](https://user-images.githubusercontent.com/101566001/161380925-a692c52e-aa07-42d4-8896-af72c93d48f5.png)
+![Category dropdown](https://user-images.githubusercontent.com/101566046/167378359-47c02efc-eabc-42af-adf7-589658bf4bbd.png)
 
 
-**Mobile page**
+**Footer**
 
-![Moobile](https://user-images.githubusercontent.com/101566001/161381022-4a872817-73b2-47fa-8ae5-9de280b2a4e7.png)
+![Footer](https://user-images.githubusercontent.com/101566046/167379827-c5541770-27ab-45ab-9d1f-e3f22c1d03d7.png)
 
 
-**Login Popup**
 
-![Login Popup](https://user-images.githubusercontent.com/101566001/161381056-635a6aa3-9e98-4e35-92e2-ffa0d2778091.png)
+**Login/Signup**
+
+![Login/Signup](https://user-images.githubusercontent.com/101566046/167379040-80b4ee4e-29fe-4e61-88f7-ed2162d7609a.png)
+
+
+**Book Store Visit**
+
+![Book Store Visit](https://user-images.githubusercontent.com/101566046/167380571-44bd0998-75dd-49fb-b4e9-a8eb43ee8579.png)
+
+
+**Fruits & Vegetable's Page**
+
+![Fruits & Vegetable's page](https://user-images.githubusercontent.com/101566046/167378593-da244010-8fd7-4de9-9a9a-a6e4bc22338e.png)
+
+
+**Health items page**
+
+![Health items page](https://user-images.githubusercontent.com/101566046/167378796-01ee0f3a-b5c0-4a28-a818-5411dce7b7db.png)
+
+
+**Grocery page**
+
+![Grocery page](https://user-images.githubusercontent.com/101566046/167378946-3cd22697-9620-4f33-9c8a-bd24301e4d3e.png)
 
 
 **Product Page**
@@ -89,24 +103,34 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 ![Product Page](https://user-images.githubusercontent.com/101566001/161402714-f05e1458-bfa3-4fc3-9b93-515842c1d936.png)
 
 
-**My Bag**
+**Cart**
 
-![My bag](https://user-images.githubusercontent.com/101566001/161402763-5a4b2bdd-2f2e-46b6-84b7-1ccbb7b351b1.png)
+![Cart](https://user-images.githubusercontent.com/101566046/167379152-56efa6a2-b9a4-4ece-b5aa-78ccc84a23ec.png)
+
+
+**Wishlist**
+
+![Wishlist](https://user-images.githubusercontent.com/101566046/167379639-e1e952bc-11cf-4334-91af-1b1d8dc03dd2.png)
 
 
 **Address**
 
-![address](https://user-images.githubusercontent.com/101566001/161402790-65383d27-ea97-48a5-8b11-7f78eae45460.png)
+![Address](https://user-images.githubusercontent.com/101566046/167379222-a06afc7b-c1f3-4127-b720-85608b5ac36c.png)
 
 
-**Checkout**
+**Delivery Slot**
 
-![checkout 2](https://user-images.githubusercontent.com/101566001/161402805-0743e300-e1d7-4223-8f0e-07277d5d5539.png)
+![Delivery Slot](https://user-images.githubusercontent.com/101566046/167379361-e9ee70a3-dcf6-41c7-9198-b18f592a8ca6.png)
 
 
-**Empty Bag**
+**Review Order**
 
-![empty bag](https://user-images.githubusercontent.com/101566001/161402831-97c6aa6f-cd9a-46d4-8a3f-be6f66205535.png)
+![Review Order](https://user-images.githubusercontent.com/101566046/167379484-e931741b-6ba4-4ea7-8955-0ec53d28b152.png)
+
+
+**Payment Page**
+
+![Payment Page](https://user-images.githubusercontent.com/101566046/167380132-5120cd48-3443-4f48-8f39-61d6f3505a35.png)
 
 
 
