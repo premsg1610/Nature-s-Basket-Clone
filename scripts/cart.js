@@ -81,7 +81,7 @@ function append(data) {
             data.pop()
             localStorage.setItem("cart",JSON.stringify(data))
             e.currentTarget.parentNode.remove()
-            calculateSubTotal()
+           
             window.location.reload()
 
         }
