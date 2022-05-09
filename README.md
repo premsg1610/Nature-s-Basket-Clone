@@ -34,7 +34,7 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 
 - `Home Page`: Nav Bar with drop downs, carousel, products and offers slider.
 - `Login/Signup`: User authentication to check whether user email and password match with details existing in the database.
-- `Dynamic navbar`: Created navbar with dropdown of categories, reference button for wishlist and cart visible on all pages.`
+- `Dynamic Navbar`: Created navbar with dropdown of categories, reference button for wishlist and cart visible on all pages.`
 - `Book Store Visit`: User can choose to visit store and book date and time slot.
 - `Product page`: User can go to different product page and can also apply sorting or filter, products can be added to cart and wishlist also.
 - `Wishlist`: User can see here all the item added to wishlist and can add product to cart.
