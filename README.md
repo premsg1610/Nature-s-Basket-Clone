@@ -13,19 +13,19 @@ It was acquired by Spencer's Retail Ltd, a RP-Sanjiv Goenka Group company in May
 
 # Our Team Members 👨‍💻
   - **[Aditya Muthal](https://github.com/adityamuthal22)**
-  - 📚 Blog link : 
+  - 📚 Blog link : https://medium.com/@adityamuthal.2208/clone-of-indian-grocery-site-natures-basket-edca5b17cccb
   
   - **[Ashish Nishad](https://github.com/iamashishnishad)**
   - 📚 Blog link : 
    
   - **[Pallavee Kumari](https://github.com/pallaveekumari)**
-  - 📚 Blog link : 
+  - 📚 Blog link : https://medium.com/@pallaveeratnakar1714/33a9cdc418cc
   
   - **[Pratik Kumar](https://github.com/Paratparshahi)**
   - 📚 Blog link : 
 
   - **[Prem Sagar Gupta](https://github.com/premsg1610)**
-  - 📚 Blog link : 
+  - 📚 Blog link : https://medium.com/@premsgupta1997/construct-week-project-masai-school-24701515734d
    
   - **[Shivam Rathod](https://github.com/rathodshivam05)**
   - 📚 Blog link : 
