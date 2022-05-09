@@ -151,7 +151,7 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 
 - GitHub is managed by Prem, Aditya and Shivam.
 
-- The Landing Page, footer is designed & all pages functioned by Aditya.
+- The Landing Page and footer is designed and functioned by Aditya.
 
 - Navbar, login/signup page is designed and functioned by Shivam.
 
