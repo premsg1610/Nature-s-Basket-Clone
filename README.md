@@ -99,9 +99,9 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 
 
 
-**Product Page**
+**Product Description Page**
 
-![Product Page](https://user-images.githubusercontent.com/101566001/161402714-f05e1458-bfa3-4fc3-9b93-515842c1d936.png)
+![Product Description Page](https://user-images.githubusercontent.com/101566046/167383440-b8114303-3d23-4a0c-830b-08b23a2e449b.png)
 
 
 **Cart**
