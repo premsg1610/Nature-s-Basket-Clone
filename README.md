@@ -22,7 +22,7 @@ It was acquired by Spencer's Retail Ltd, a RP-Sanjiv Goenka Group company in May
   - 📚 Blog link : https://medium.com/@pallaveeratnakar1714/33a9cdc418cc
   
   - **[Pratik Kumar](https://github.com/Paratparshahi)**
-  - 📚 Blog link : 
+  - 📚 Blog link : https://medium.com/@pratikkumarshahi/clone-of-indian-grocery-site-natures-basket-7d3e8f489de8
 
   - **[Prem Sagar Gupta](https://github.com/premsg1610)**
   - 📚 Blog link : https://medium.com/@premsgupta1997/construct-week-project-masai-school-24701515734d
