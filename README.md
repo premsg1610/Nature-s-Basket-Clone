@@ -61,11 +61,9 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 ![Home Page](https://user-images.githubusercontent.com/101566046/167378276-5991087a-472b-47ff-ac0b-d47a1de0523a.png)
 
 
-
 **Category DropDown**
 
 ![Category dropdown](https://user-images.githubusercontent.com/101566046/167378359-47c02efc-eabc-42af-adf7-589658bf4bbd.png)
-
 
 
 **Footer**
@@ -73,17 +71,14 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 ![Footer](https://user-images.githubusercontent.com/101566046/167379827-c5541770-27ab-45ab-9d1f-e3f22c1d03d7.png)
 
 
-
 **Login/Signup**
 
 ![Login/Signup](https://user-images.githubusercontent.com/101566046/167379040-80b4ee4e-29fe-4e61-88f7-ed2162d7609a.png)
 
 
-
 **Book Store Visit**
 
 ![Book Store Visit](https://user-images.githubusercontent.com/101566046/167380571-44bd0998-75dd-49fb-b4e9-a8eb43ee8579.png)
-
 
 
 
@@ -93,12 +88,9 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 
 
 
-
 **Health items page**
 
 ![Health items page](https://user-images.githubusercontent.com/101566046/167378796-01ee0f3a-b5c0-4a28-a818-5411dce7b7db.png)
-
-
 
 
 **Grocery page**
@@ -107,12 +99,9 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 
 
 
-
 **Product Page**
 
 ![Product Page](https://user-images.githubusercontent.com/101566001/161402714-f05e1458-bfa3-4fc3-9b93-515842c1d936.png)
-
-
 
 
 **Cart**
@@ -120,12 +109,9 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 ![Cart](https://user-images.githubusercontent.com/101566046/167379152-56efa6a2-b9a4-4ece-b5aa-78ccc84a23ec.png)
 
 
-
-
 **Wishlist**
 
 ![Wishlist](https://user-images.githubusercontent.com/101566046/167379639-e1e952bc-11cf-4334-91af-1b1d8dc03dd2.png)
-
 
 
 
@@ -135,11 +121,9 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 
 
 
-
 **Delivery Slot**
 
 ![Delivery Slot](https://user-images.githubusercontent.com/101566046/167379361-e9ee70a3-dcf6-41c7-9198-b18f592a8ca6.png)
-
 
 
 
@@ -156,28 +140,29 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 
 
 
-
 ## Roles & Responsibilities :-
 
-- GitHub is managed by Prem.
+- GitHub is managed by Prem, Aditya and Shivam.
 
-- The Landing Page, footer is designed & all pages functioned by Prem.
+- The Landing Page, footer is designed & all pages functioned by Aditya.
 
-- The Searchbar, sign in dropdown and navbar is designed and functioned by Ashok.
+- Navbar, login/signup page is designed and functioned by Shivam.
 
-- Women's page, Checkout page and filter is designed & functioned by Shipra.
+- Fruits & Vegetable's page, Health items page and Grocery page is designed and functioned by Prem.
 
-- Men's page and Bag designed & functioned by Sunil.
+- Cart page, Wishlist and order confirmation is designed and full functional by Pallavee.
 
-- Product details, mobile and payment details page is designed & functioned by Chetan.
+- Book delivery slot and book visit store is designed by Pratik.
+
+- Order review, Prodduct description and Payment page is designed and function by Ashish.
 
 ## Learning :-
 
 - We all became proficient in reading the code of team members.
 
-- Our code writing style became cleaner as we had to think while writing code that other team members will be reading.
+- Our code writing style became cleaner as we had used ES6 to write code and used import export so that code become well structured.
 
-- We had to learn about many CSS properties that we didn't know before.
+- We learn about many CSS properties that we didn't know before.
 
 - Our skills in JavaScript and DOM manipulation became better.
 
