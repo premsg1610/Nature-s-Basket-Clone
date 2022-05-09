@@ -1,33 +1,34 @@
 # Project-Nature-s-Basket-
+Hi World !🌏
+We are students of Masai School from Web17 batch and we presenting our project- clone of Nature's Basket, built during construct week of Unit-3.
+
+# Details : 🔭
 Nature's Basket is an Indian grocery delivery chain of retail stores focused in gourmet food. It has a range of organic food, imported ingredients and exotic foods.
 The company is headquartered in Mumbai, India and has multiple stores in cities like Mumbai, Bengaluru, Pune and Kolkata.
 It was acquired by Spencer's Retail Ltd, a RP-Sanjiv Goenka Group company in May 2019 from the Godrej Group in an all-cash deal.
 
-# Details : 🔭
-Hi World !🌏
-We are students of Masai School from Web17 batch and we presenting our project, built during construct week of Unit-3.
 
- 🚀 The link for the same is here : https://tata-cliq-clone.netlify.app
+ 🚀 The link for the same is here : https://nature-basket-clone-488ad1.netlify.app
  
 
 # Our Team Members 👨‍💻
   - **[Aditya Muthal](https://github.com/adityamuthal22)**
-  - 📚 Blog link : https://medium.com/@kumarashoka7677/construct-week-masai-school-e0f17adbb5c7
+  - 📚 Blog link : 
   
   - **[Ashish Nishad](https://github.com/iamashishnishad)**
-  - 📚 Blog link : https://medium.com/@cs786786786/construct-week-masai-school-89197e6749ff
+  - 📚 Blog link : 
    
   - **[Pallavee Kumari](https://github.com/pallaveekumari)**
-  - 📚 Blog link : https://medium.com/@premsgupta1997/construct-week-masai-school-236beb431ead
+  - 📚 Blog link : 
   
   - **[Pratik Kumar](https://github.com/Paratparshahi)**
-  - 📚 Blog link : https://medium.com/@shiprapal97/how-we-made-our-1st-project-masai-school-1b7ef2550090
+  - 📚 Blog link : 
 
   - **[Prem Sagar Gupta](https://github.com/premsg1610)**
-  - 📚 Blog link : https://medium.com/@sunilroka/construct-week-masai-school-deacc611daa4
+  - 📚 Blog link : 
    
   - **[Shivam Rathod](https://github.com/rathodshivam05)**
-  - 📚 Blog link : https://medium.com/@sunilroka/construct-week-masai-school-deacc611daa4
+  - 📚 Blog link : 
 
 
 ### Pages & Features 👇
