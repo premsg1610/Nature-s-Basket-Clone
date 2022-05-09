@@ -67,6 +67,7 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 ![Category dropdown](https://user-images.githubusercontent.com/101566046/167378359-47c02efc-eabc-42af-adf7-589658bf4bbd.png)
 
 
+
 **Footer**
 
 ![Footer](https://user-images.githubusercontent.com/101566046/167379827-c5541770-27ab-45ab-9d1f-e3f22c1d03d7.png)
@@ -78,9 +79,12 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 ![Login/Signup](https://user-images.githubusercontent.com/101566046/167379040-80b4ee4e-29fe-4e61-88f7-ed2162d7609a.png)
 
 
+
 **Book Store Visit**
 
 ![Book Store Visit](https://user-images.githubusercontent.com/101566046/167380571-44bd0998-75dd-49fb-b4e9-a8eb43ee8579.png)
+
+
 
 
 **Fruits & Vegetable's Page**
@@ -88,9 +92,13 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 ![Fruits & Vegetable's page](https://user-images.githubusercontent.com/101566046/167378593-da244010-8fd7-4de9-9a9a-a6e4bc22338e.png)
 
 
+
+
 **Health items page**
 
 ![Health items page](https://user-images.githubusercontent.com/101566046/167378796-01ee0f3a-b5c0-4a28-a818-5411dce7b7db.png)
+
+
 
 
 **Grocery page**
@@ -98,9 +106,13 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 ![Grocery page](https://user-images.githubusercontent.com/101566046/167378946-3cd22697-9620-4f33-9c8a-bd24301e4d3e.png)
 
 
+
+
 **Product Page**
 
 ![Product Page](https://user-images.githubusercontent.com/101566001/161402714-f05e1458-bfa3-4fc3-9b93-515842c1d936.png)
+
+
 
 
 **Cart**
@@ -108,9 +120,13 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 ![Cart](https://user-images.githubusercontent.com/101566046/167379152-56efa6a2-b9a4-4ece-b5aa-78ccc84a23ec.png)
 
 
+
+
 **Wishlist**
 
 ![Wishlist](https://user-images.githubusercontent.com/101566046/167379639-e1e952bc-11cf-4334-91af-1b1d8dc03dd2.png)
+
+
 
 
 **Address**
@@ -118,14 +134,19 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 ![Address](https://user-images.githubusercontent.com/101566046/167379222-a06afc7b-c1f3-4127-b720-85608b5ac36c.png)
 
 
+
+
 **Delivery Slot**
 
 ![Delivery Slot](https://user-images.githubusercontent.com/101566046/167379361-e9ee70a3-dcf6-41c7-9198-b18f592a8ca6.png)
 
 
+
+
 **Review Order**
 
 ![Review Order](https://user-images.githubusercontent.com/101566046/167379484-e931741b-6ba4-4ea7-8955-0ec53d28b152.png)
+
 
 
 **Payment Page**
