@@ -139,6 +139,13 @@ We are students of Masai School from Web17 batch and we presenting our project, 
 
 
 
+**Order Confirmation**
+
+![Order Confirmation](https://user-images.githubusercontent.com/101566046/167388475-73d4aedc-0854-4301-a02e-c77de4977b20.png)
+
+
+
+
 
 ## Roles & Responsibilities :-
 
