@@ -63,5 +63,5 @@ function wishlist(el){
     cartdata.push(el)
     localStorage.setItem("cart",JSON.stringify(cartdata))
     alert("item added to cart")
-    // window.location.href=""
+    
 }

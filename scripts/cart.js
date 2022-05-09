@@ -1,5 +1,4 @@
-// import header from "../components/header.js"
-// document.getElementById("header").innerHTML=header();
+
 
 import {footer} from "../components/footer.js";
 let n =document.getElementById("pr_footer");
@@ -10,8 +9,8 @@ document.getElementById("header").innerHTML=header()
 
 
 
-let data = JSON.parse(localStorage.getItem("cart"))
-console.log(data)
+let data = JSON.parse(localStorage.getItem("cart"));
+
 
 
 

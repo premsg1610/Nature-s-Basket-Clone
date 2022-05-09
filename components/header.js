@@ -3,6 +3,9 @@ function header(){
     Now accepting Wine & Beer orders (Select stores, Mumbai Only). Delivery timings 10.00 AM to 8:00 PM subject to
     verification of permit and age by delivery person. Age criteria 21+ for mild beer and 25+ for strong beer and wine.
   </div>
+
+
+
   <!--Navbar Starts Here-->
   <div class="s-pages">
     <p> <a href="#">Online Slots Availabitily</a></p>
@@ -42,11 +45,17 @@ function header(){
         <a href="./wishlist.html"><i class="bi bi-star-fill"></i></a>
         <span>|</span>
         <a href="./cart.html"><i class="bi bi-cart4"></i></a>
+
+       
+
         <button id="s-item" >7</button>
+
       </div>
     </div>
   </nav>
   <!--Header Ends-->
+
+
   <!--Submenu and Sidebar-->
   <div id="s-sidebar">
     <p id="s-cat">SHOP BY CATEGORY &nbsp; <i class="bi bi-caret-down-fill"></i></p>
