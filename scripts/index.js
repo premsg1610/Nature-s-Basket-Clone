@@ -7,6 +7,12 @@ document.getElementById("header").innerHTML=header();
 
 import {appendData,search} from "./fetch_pg.js";
 
+let cartItem_s = JSON.parse(localStorage.getItem("cart"))
+// console.log(cartItem_s.length)
+let num = document.getElementById("s-item")
+num.innerText = cartItem_s.length
+// console.log(num.innerText)
+
 
 // var swiper = new Swiper('.swiper-container', {
 //     navigation: {
