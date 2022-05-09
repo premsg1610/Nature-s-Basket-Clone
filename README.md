@@ -1,13 +1,13 @@
 # Project-Nature-s-Basket-
 Nature's Basket is an Indian grocery delivery chain of retail stores focused in gourmet food. It has a range of organic food, imported ingredients and exotic foods.
 The company is headquartered in Mumbai, India and has multiple stores in cities like Mumbai, Bengaluru, Pune and Kolkata.
-It was acquired by Spencer's Retail Ltd, a RP-Sanjiv Goenka Group company in May 2019 from the Godrej Group in an all-cash deal
+It was acquired by Spencer's Retail Ltd, a RP-Sanjiv Goenka Group company in May 2019 from the Godrej Group in an all-cash deal.
 
 # Details : 🔭
 Hi World !🌏
-We are students of Masai School from Web17 batch and we presenting our project,built in construct week of Unit2.
+We are students of Masai School from Web17 batch and we presenting our project, built during construct week of Unit-3.
 
- 🚀 This link for the same is here : https://tata-cliq-clone.netlify.app
+ 🚀 The link for the same is here : https://tata-cliq-clone.netlify.app
  
 
 # Our Team Members 👨‍💻
@@ -32,13 +32,18 @@ We are students of Masai School from Web17 batch and we presenting our project,b
 
 ### Pages & Features 👇
 
-- `Home Page`: Nav Bar with drop downs, sliding banners for products.
-- `Sign-In`: User authentication to check whether user email and password match with details existing in the database.
-- `Dynamic navbar with dropdown of categories`
-- `Cart`: User can see or remove products added in the cart.
-- `Checkout Page`: Users can fill in details and proceed to payment.
+- `Home Page`: Nav Bar with drop downs, carousel, products and offers slider.
+- `Login/Signup`: User authentication to check whether user email and password match with details existing in the database.
+- `Dynamic navbar with dropdown of categories, reference button for wishlist and cart visible on all pages.`
+- `Book Store Visit`: User can choose to visit store and book date and time slot.
+- `Product page`: User can go to different product page and can also apply sorting or filter, products can be added to cart and wishlist also.
+- `Wishlist`: User can see here all the item added to wishlist and can add product to cart.
+- `Cart`: User can see all the items here and can also remove products from the cart.
+- `Address Details`: Users have to fill their delivery address details.
+- `Select Slot`: User can choose the delivey time slot.
+- `Order Review Page`: User can review thier order and proceed further.
 - `Payment Page`: Users can add their payment details.
-- `Order Successful`: Once order is placed we continue shopping further or move out of page.
+- `Order Successful`: Once order is placed, confirmation will be shown and user can continue shopping further.
 - `Additional Features`: Kept the branding, fonts, favicon, colors  and titles consistent throughtout the whole site to give a feel like the original site.
 
 ## Tech Stack
@@ -47,7 +52,7 @@ We are students of Masai School from Web17 batch and we presenting our project,b
 - ![CSS3](https://img.shields.io/badge/-CSS3-000000?style=for-the-badge&logo=CSS3)
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=for-the-badge&logo=javascript) 
 - (DOM Manipulation, Local Storage)
-- BOOTSTRAP
+- ![BOOTSTRAP](https://avatars.githubusercontent.com/u/2918581?s=280&v=4)
 
 ## Screenshots :
 
