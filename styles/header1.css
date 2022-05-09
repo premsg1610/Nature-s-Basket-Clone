@@ -108,7 +108,7 @@
 
 #s-item {
     background: #54BAE2;
-    color: white;
+    color: white !important;
     font-weight: bold;
     width: 19px;
     height: 19px;
