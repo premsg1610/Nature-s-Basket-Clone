@@ -45,8 +45,11 @@ function header(){
         <a href="./wishlist.html"><i class="bi bi-star-fill"></i></a>
         <span>|</span>
         <a href="./cart.html"><i class="bi bi-cart4"></i></a>
-         <button id="s-item">0</button>
+
        
+
+        <button id="s-item" >7</button>
+
       </div>
     </div>
   </nav>

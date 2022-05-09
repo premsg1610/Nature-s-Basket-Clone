@@ -1,0 +1,269 @@
+
+/* *{
+  font-family: sans-serif;
+} */
+#as_nature 
+{
+   height:200px;
+   width: 100%;
+   border: 1px solid red;
+ cursor: pointer;
+  
+}
+#as_image{
+  width: 100%;
+  height: 100%;
+
+}
+#as_continue{
+    width: 200px;
+border-radius: 10px;
+border:3px solid rgb(104, 137, 47);
+padding: 8px 6px;
+color: #000000;
+font: 14px CeraPRO-Light,CeraPRO-Regular;
+margin: 0px 12px 0px 0px;
+cursor: pointer;
+font-size: 16px;
+font-weight: normal;
+background-color:#ffffff;
+
+}
+#as_proceed{
+    
+    border-radius: 10px;
+    background-color: #92BE4D;
+    color: white;
+    padding: 10px 62px 10px;
+    font: 14px CeraPRO-Regular;
+    cursor: pointer;
+  font-size: 18px;
+  font-weight: normal;
+ 
+}
+#as_proceed:hover{
+    background-color: #2f430d;
+}
+#as_get
+{
+    
+    border-top: 4px solid #dedede;
+    color: #b71761;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 4px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+#as_name{
+    height: 70px;
+    width: 100%;
+     display: flex; 
+     justify-content: space-evenly; 
+     border-bottom: 3px solid #92BE4D;
+     align-items: flex-end;
+     /* border:1px solid red; */
+  
+}
+
+
+#top{
+  margin-left: 900px;
+}
+
+#BOTTOM{
+  margin-left: 900px;
+}
+
+
+#tb{
+  border: 1px solid #d2c6c6;
+  width: 100%;
+  height: 70px;
+  margin-bottom: 30px;
+  
+  background-color: #f1f1f1
+
+}
+
+#as_img{
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+td{
+  
+  
+  width: 25%;
+  
+}
+
+#price{
+  margin-right: 40px;
+}
+.header{
+  border-bottom: 1px solid #e1e1e1;
+}
+.inter{
+  border-bottom: 1px solid #a99e9e;
+}
+
+#as_my{
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left:10px;
+}
+#as_im{
+  margin-left: -200px;
+  margin-right:100px;
+}
+ #as_nm{
+  margin-right: 10px;
+}
+ #as_qty{
+  margin-right: 85px;
+}  
+#as_price{
+  margin-right: 80px;
+} 
+
+#as_countDiv{
+  display: flex;
+  gap: 5px;
+ 
+}
+ 
+#remove{
+  margin-top: 20px;
+  margin-right: 10px;
+  background-color: #92BE4D;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+}
+#remove:hover{
+  background-color: #2f430d;
+  color: white;
+}
+
+
+#asbox1{
+    width: auto;
+    text-align: center;
+    padding: 15px;
+    max-width: 400%;
+    height: auto;
+
+}
+
+ #asbox1>img{
+        height: 210px;
+}
+
+#asbox2{
+    margin: auto;
+  width: 85%;
+  border: 2px solid black;
+  padding: 10px;
+  font-size: larger;
+  background-color: beige;
+ }
+
+ #asbox4{
+    margin: auto;
+    width: 85%;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: larger;
+  
+    height: 40%;
+    
+    height: 100%;
+    margin-top: 20px;
+}
+ #asbox41{
+     font-size: small;
+     
+ }
+
+ #asbox43{
+     margin: auto;
+     width: 95%;
+     border: 1px solid black;
+     padding: 10px;
+     font-size: smaller;
+     height: 100px;
+     margin-top: 20px;
+
+ }
+
+/* 
+ body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-left: 110px;
+  margin-top: 30px;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+
+  border: 1px solid black;
+  
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  color: green;
+  cursor: pointer;
+  font-size: small;
+  border-radius: 5px;
+}
+
+@media (max-width: 800px)
+ {
+  .form-inline input
+   
+  {
+    margin: 10px 0;
+  }
+ }
+
+  
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+    display: flex;
+  }
+
+  #email{
+    width: 200px;
+  }
+  button{
+    width: 100px;
+    display: flex;
+  }
+  #pwd{
+    width: 100px;
+  }
+   */
+p1{
+  color: #b71761;
+}

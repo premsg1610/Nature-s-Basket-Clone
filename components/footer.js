@@ -45,11 +45,11 @@ let footer =() =>{
                 <li>
                     <h4><a href="">Our Policies</a></h4>
                 </li>
-                <li><a href="">Privacy Plolicy</a></li>
-                <li><a href="">Payment policy</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Payment Policy</a></li>
                 <li><a href="">Disclaimer</a></li>
                 <li><a href="">Statutory Compliance</a></li>
-                <li><a href="">Data Protection Plolicy</a></li>
+                <li><a href="">Data Protection Policy</a></li>
                 <li><a href="">Grievance Officer</a></li>
                 <li><a href="">Information Security Policy</a></li>
             </ul>
@@ -58,7 +58,7 @@ let footer =() =>{
     <div id="Adinewsletter">
             <h4>SIGN UP TO STAY UPDATED</h4>
             <input type="text" placeholder="ENTER YOUR EMAIL ADDRESS">
-            <button id="AdiSubbutton">SUBSCIBE</button>
+            <button id="AdiSubbutton">SUBSCRIBE</button>
            
     </div>
 </div>
