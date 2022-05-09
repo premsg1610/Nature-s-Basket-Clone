@@ -16,7 +16,7 @@ It was acquired by Spencer's Retail Ltd, a RP-Sanjiv Goenka Group company in May
   - 📚 Blog link : https://medium.com/@adityamuthal.2208/clone-of-indian-grocery-site-natures-basket-edca5b17cccb
   
   - **[Ashish Nishad](https://github.com/iamashishnishad)**
-  - 📚 Blog link : 
+  - 📚 Blog link : https://medium.com/the-better-life/clone-of-indian-grocery-site-natures-basket-6dedc7ed0ff9
    
   - **[Pallavee Kumari](https://github.com/pallaveekumari)**
   - 📚 Blog link : https://medium.com/@pallaveeratnakar1714/33a9cdc418cc
