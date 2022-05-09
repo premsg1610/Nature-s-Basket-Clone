@@ -13,6 +13,10 @@ let appendData = (data,container) =>{
         let box = document.createElement("div")
         box.setAttribute("id","box_pg")
 
+        // box.addEventListener("click",function(){
+        //     window.location.href = "../description.html"
+        // })
+
         let img = document.createElement("img")
         img.src = img_url;
         img.setAttribute("id","img_pg");
@@ -86,6 +90,10 @@ let appendData2 = (data,container) =>{
         
         let box = document.createElement("div")
         box.setAttribute("id","box_pg")
+
+        // box.addEventListener("click",function(){
+        //     window.location.href = "../description.html"
+        // })
 
         let img = document.createElement("img")
         img.src = img_url;

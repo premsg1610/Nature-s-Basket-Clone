@@ -13,7 +13,7 @@ document.querySelector("#form").addEventListener("submit",signUp);
         };
         // console.log(signObj)
         signUpArr.push(signObj);
-        //console.log(signUpArr)
+        console.log(signUpArr)
 
         //adding data to the local storage
         localStorage.setItem("signUpData", JSON.stringify(signUpArr))
