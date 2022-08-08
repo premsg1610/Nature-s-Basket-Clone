@@ -28,7 +28,7 @@ It was acquired by Spencer's Retail Ltd, a RP-Sanjiv Goenka Group company in May
   - 📚 Blog link : https://medium.com/@premsgupta1997/construct-week-project-masai-school-24701515734d
    
   - **[Shivam Rathod](https://github.com/rathodshivam05)**
-  - 📚 Blog link : 
+  
 
 
 ### Pages & Features 👇
